@@ -16,7 +16,7 @@ body {
 	overflow-x: hidden;
 }
 div.topdiv {
-	margin: 15;
+	margin: 35;
 	padding: 30;
 
 	font-family: 'Montserrat', sans-serif;
@@ -26,8 +26,8 @@ div.blockdiv:hover {
 	margin: 10;
 
 	/*CSS Azure is a slightly bluish off-white. WAY WAY brighter than actual azure but it'll work for here.*/
-	border: 5px solid azure;
-	padding: 30;
+	border: 1px solid azure;
+	padding: 54;
 
 	/*I don't know why but if I set the top padding to 0 it defaults to like... way more than 0*/
 	padding-top: 1;
@@ -38,7 +38,7 @@ div.blockdiv:hover {
 	color: Indigo;
 }
 div.blockdiv {
-	margin: 10;
+	margin: 30;
 
 	/*CSS Azure is a slightly bluish off-white. WAY WAY brighter than actual azure but it'll work for here.*/
 	border: 5px solid azure;
