@@ -47,6 +47,7 @@ div.blockdiv {
 	/*I don't know why but if I set the top padding to 0 it defaults to like... way more than 0*/
 	padding-top: 1;
 	background: Indigo;
+	transition: 0.5s;
 	/*background: linear-gradient(135deg, DarkViolet 0%, Indigo 100%);*/
 	font-family: 'Montserrat', sans-serif;
 	color: Black
