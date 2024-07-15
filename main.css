@@ -10,9 +10,14 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Righteous&family=Yeseva+One&display=swap');
 
+:root {
+	--main-color:#4B3052;
+	--highlight-color:#DA9082;
+}
+
 body {
-	background: Indigo;
-	background: linear-gradient(135deg, Indigo 0%, Black 100%);
+	background: var(--main-color);
+	background: linear-gradient(135deg, var(--main-color) 0%, Black 100%);
 	overflow-x: hidden;
 }
 div.topdiv {
@@ -32,11 +37,11 @@ div.blockdiv:hover {
 	/*I don't know why but if I set the top padding to 0 it defaults to like... way more than 0*/
 	padding-top: 1;
 	padding-bottom: 38;
-	background: Coral;
+	background: var(--highlight-color);
 	transition: 0.5s;
 	/*background: linear-gradient(135deg, Coral 0%, Crimson 100%);*/
 	font-family: 'Montserrat', sans-serif;
-	color: Indigo;
+	color: var(--main-color);
 }
 div.blockdiv {
 	margin: 30;
@@ -47,9 +52,9 @@ div.blockdiv {
 
 	/*I don't know why but if I set the top padding to 0 it defaults to like... way more than 0*/
 	padding-top: 1;
-	background: Indigo;
+	background: var(--main-color);
 	transition: 0.5s;
-	/*background: linear-gradient(135deg, DarkViolet 0%, Indigo 100%);*/
+	/*background: linear-gradient(135deg, DarkViolet 0%, var(--main-color) 100%);*/
 	font-family: 'Montserrat', sans-serif;
 	color: Black
 }
